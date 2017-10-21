@@ -23,7 +23,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: 
+keywords: "守望的个人主页，技术博客"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -33,7 +33,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2015
+  since: 2016
 
   # Icon between year and copyright info.
   icon: user
@@ -42,13 +42,13 @@ footer:
   copyright:
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
-  powered: true
+  powered: false
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    enable: false
     # Version info of NexT after scheme info (vX.X.X).
-    version: true
+    version: false
   # -------------------------------------------------------------
   # Any custom text can be defined here.
   #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
@@ -195,7 +195,7 @@ sidebar:
 scroll_to_more: true
 
 # Automatically saving scroll position on each post/page in cookies.
-save_scroll: false
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -280,7 +280,7 @@ highlight_theme: night bright
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
@@ -329,8 +329,8 @@ font:
 
 # MathJax Support
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
@@ -385,15 +385,15 @@ gitment:
   enable: false
   githubID: yanbinghu
   repo: BlogComments
-  ClientID: 
-  ClientSecret: 
+  ClientID: ede3b4c45efafd567659
+  ClientSecret: a1b520b96a030165bd3bde65c37121e82e3509b3
   lazy: false
 gitalk:
   enable: true
   githubID: yanbinghu	 
   repo: BlogComments
-  ClientID: 
-  ClientSecret: 
+  ClientID: ede3b4c45efafd567659
+  ClientSecret: a1b520b96a030165bd3bde65c37121e82e3509b3
   adminUser: yanbinghu
   distractionFreeMode: true
 # Baidu Share
@@ -409,7 +409,8 @@ gitalk:
 # Warning: JiaThis does not support https.
 jiathis: true
   ##uid: Get this uid from http://www.jiathis.com/
-add_this_id: 
+add_this_id: 2134076
+
 # Share
 #duoshuo_share: true
 
@@ -598,7 +599,7 @@ tabs:
 # Use velocity to animate everything.
 motion:
   enable: true
-  async: false
+  async: true
   transition:
     # Transition variants:
     # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
@@ -618,7 +619,7 @@ motion:
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
@@ -638,7 +639,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false

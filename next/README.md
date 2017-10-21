@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # NexT
 
 NexT is a high quality elegant [Hexo](http://hexo.io) theme. It is crafted from scratch, with love.
@@ -344,7 +343,3 @@ Contribution is welcome, feel free to open an issue and fork. Waiting for your p
 [releases-url]: https://github.com/iissnan/hexo-theme-next/releases
 [tags-url]: https://github.com/iissnan/hexo-theme-next/tags
 [commits-url]: https://github.com/iissnan/hexo-theme-next/commits/master
-=======
-# next
-the theme for hexo
->>>>>>> f7db81bae4d0d767b4eb2fd2d976d05bee2ed063
