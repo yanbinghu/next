@@ -385,15 +385,15 @@ gitment:
   enable: false
   githubID: yanbinghu
   repo: BlogComments
-  ClientID: ede3b4c45efafd567659
-  ClientSecret: a1b520b96a030165bd3bde65c37121e82e3509b3
+  ClientID: 
+  ClientSecret: 
   lazy: false
 gitalk:
   enable: true
   githubID: yanbinghu	 
   repo: BlogComments
-  ClientID: ede3b4c45efafd567659
-  ClientSecret: a1b520b96a030165bd3bde65c37121e82e3509b3
+  ClientID: 
+  ClientSecret: 
   adminUser: yanbinghu
   distractionFreeMode: true
 # Baidu Share
@@ -486,8 +486,8 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: true
-  app_id: #<app_id>
-  app_key: #<app_key>
+  app_id: 
+  app_key: 
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -503,7 +503,7 @@ busuanzi_count:
   site_pv_header: <i class="fa fa-eye"></i>
   site_pv_footer:
   # custom pv span for one page only
-  page_pv: true
+  page_pv: false
   page_pv_header: <i class="fa fa-file-o"></i>
   page_pv_footer:
 
